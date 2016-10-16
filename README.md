@@ -1,6 +1,3 @@
 # Monte_Carlo_Simulation_By_Examples
-Coming soon: Here I will present several simple examples to illustrate how to conduct a Monte Carlo Simulation. 
-More specifically, I will put here:
-1) Opinion dynamics: Galam's majority rule, voter model and Sznajd model
-2) Epidemic models: SI,SIS and SIR 
-3) Random Walks and Diffusion
+ Galam's majority rule is a quite simple model that illustrates the use of the Monte Carlo Simulation. 
+ See Galam, Serge. "Sociophysics: a review of Galam models." International Journal of Modern Physics C 19.03 (2008): 409-440.
