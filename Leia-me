@@ -1,6 +1,11 @@
 A regra da maioria é um modelo minimal que já introduz a pressão social entre os agentes em uma dinâmica de opinião. 
+Esse modelo descreve a emergência de consenso global em uma população com N agentes a partir de grupos de discussão
+locais. 
+
 No arquivo  majority-rule-monte-carlo-and-iterative-map.R  faço a implementação desse modelo através do método de
-Monte Carlo e mais especificamente da simulação baseada em agentes.
+Monte Carlo e mais especificamente da simulação baseada em agentes. Considero a versão de duas opiniões opostas, 
+digamos A e B, e grupos 3 agentes.
+
 Para mais detalhes do modelo ver:  
 Galam, Serge. "Sociophysics: a review of Galam models." International Journal of Modern Physics C
 19.03 (2008): 409-440.
