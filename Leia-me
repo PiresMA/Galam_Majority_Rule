@@ -6,6 +6,12 @@ No arquivo  majority-rule-monte-carlo-and-iterative-map.R  faço a implementaç�
 Monte Carlo e mais especificamente da simulação baseada em agentes. Considero a versão de duas opiniões opostas, 
 digamos A e B, e grupos 3 agentes.
 
+O arquvivo majority-rule.png mostra uma comparação entre os resultados obtidos de simulação com os resultados obtidos 
+do mapa iterativo p(t+1)=p(t)^3 + 3*p(t)^2(1-p(t)) onde p(t) é a proporção de agentes com opinião A em um dado 
+instante t. 
+
 Para mais detalhes do modelo ver:  
 Galam, Serge. "Sociophysics: a review of Galam models." International Journal of Modern Physics C
 19.03 (2008): 409-440.
+
+Para uma recente aplicação veja http://www.sciencedirect.com/science/article/pii/S0378437116306914
