@@ -22,7 +22,7 @@ ids     = 1:N
 out.A.num = matrix(0,nrow=tmax, ncol=nsims)
 out.B.num = matrix(0,nrow=tmax, ncol=nsims)
 
-
+# Loop over monte carlo simulations
 for (simu in 1:nsims) {
   
   # initialization
@@ -32,8 +32,10 @@ for (simu in 1:nsims) {
   opi  = c( rep(1, A.num), rep(-1, B.num) )
   opi2 = opi
   
+  # Dynamics 
   for (t in 2:tmax) {
     
+    # ONE monte carlo step
     for (node in 1:N ) 
     { # one MC Step over the FULL network  
             
