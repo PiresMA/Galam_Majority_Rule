@@ -7,17 +7,20 @@ Monte Carlo e mais especificamente da simulação baseada em agentes. Considero 
 digamos A e B, e grupos 3 agentes. Em resumo o pseudo-código é:
 
 Para cada instante de tempo t
-*** Visitar cada agente e aplicar a regra da maioria
+** Visitar cada agente e aplicar a regra da maioria
 ****** Se o agente i tiver opinião o_i=+1 então fazemos $o_i=-1$ com taxa f_{-1}^2
-		****** Se o agente i tiver opinião o_i=-1 então fazemos o_i=+1 com taxa f_{+1}^2		
-*** Fazer atualização paralela das opiniões de cada agente
+****** Se o agente i tiver opinião o_i=-1 então fazemos o_i=+1 com taxa f_{+1}^2		
+** Fazer atualização paralela das opiniões de cada agente
 
 O arquvivo majority-rule.png mostra uma comparação entre os resultados obtidos de simulação com os resultados obtidos 
 do mapa iterativo p(t+1)=p(t)^3 + 3*p(t)^2(1-p(t)) onde p(t) é a proporção de agentes com opinião A em um dado 
 instante t. 
 
 Para mais detalhes do modelo ver:  
-Galam, Serge. "Sociophysics: a review of Galam models." International Journal of Modern Physics C
-19.03 (2008): 409-440.
+
+[1] S.Galam. "Sociophysics: a review of Galam models." International Journal of Modern Physics C 19.03 (2008): 409-440.
+
+[2] S.Galam. Sociophysics: a physicist's modeling of psycho-political phenomena. Springer Science & Business Media, 2012.
+
 
 Para uma recente aplicação veja http://www.sciencedirect.com/science/article/pii/S0378437116306914
