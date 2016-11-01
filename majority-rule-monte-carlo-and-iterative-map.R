@@ -1,5 +1,5 @@
 ﻿##******************************************************************##
-# Monte Carlo Simulation of the Galam Majority Model in a simple way
+# Agent Based Simulation of the Galam Majority Model in a simple way
 # obs:  agents are chosen sequentially
 # Galam, Serge. "Sociophysics: a review of Galam models." 
 # International Journal of Modern Physics C 19.03 (2008): 409-440.
@@ -22,7 +22,7 @@ ids     = 1:N
 out.A.num = matrix(0,nrow=tmax, ncol=nsims)
 out.B.num = matrix(0,nrow=tmax, ncol=nsims)
 
-# Loop over monte carlo simulations
+# Loop over diferent configurations
 for (simu in 1:nsims) {
   
   # initialization
@@ -35,9 +35,9 @@ for (simu in 1:nsims) {
   # Dynamics 
   for (t in 2:tmax) {
     
-    # ONE monte carlo step
+    # Visit each agent
     for (node in 1:N ) 
-    { # one MC Step over the FULL network  
+    { 
             
       if( opi[ node ] == 1 ) # if node A has opinion +1
       {
