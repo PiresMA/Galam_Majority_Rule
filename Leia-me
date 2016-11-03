@@ -4,8 +4,9 @@ locais.
 
 No arquivo  majority-rule-monte-carlo-and-iterative-map.R  faço a implementação desse modelo através do método de
 Monte Carlo e mais especificamente da simulação baseada em agentes. Considero a versão de duas opiniões opostas, 
-digamos A e B, e grupos 3 agentes. Em resumo o pseudo-código é:
+digamos A e B, e grupos 3 agentes. 
 
+Em resumo o pseudo-código é: 
 Para cada instante de tempo t
 ** Visitar cada agente e aplicar a regra da maioria
 ****** Se o agente i tiver opinião o_i=+1 então fazemos $o_i=-1$ com taxa f_{-1}^2
